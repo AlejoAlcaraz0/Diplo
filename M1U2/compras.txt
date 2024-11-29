@@ -2,6 +2,3 @@ Manzana
 Naranja
 Fideos
 Arroz
-Huevos
-Harina
-Manteca
