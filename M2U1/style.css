@@ -1,0 +1,56 @@
+/*
+Fuentes
+font-family: "Dancing Script", serif;
+font-family: "Bona Nova SC", serif;
+font-family: "Caveat", serif;
+font-family: "Bebas Neue", serif;
+*/
+
+h1 {
+  font-family: "Caveat", serif;
+  margin: 15px;
+  color: #fff;
+  background-color: #22d622;
+  padding: 15px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+img {
+  filter: brightness(89%) saturate(335%) contrast(85%);
+  -webkit-filter: brightness(89%) saturate(335%) contrast(85%);
+  -moz-filter: brightness(89%) saturate(335%) contrast(85%);
+}
+
+.datos {
+  font-family: "Dancing Script", serif;
+  border-radius: 16px;
+  box-shadow: 15px 10px 5px #a1c4fd; /* Eje x - Eje y - Desenfoque - Color*/
+  border: 5px inset #50a0ff;
+}
+
+.gustos {
+  font-family: "Bona Nova SC", serif;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.6);
+}
+
+.lista {
+  font-family: "Bebas Neue", serif;
+}
+
+#perfil {
+  border: 6px dashed #1593b0;
+  background: #0f1f57;
+  font-family: "Caveat", serif;
+  color: #50a0ff;
+}
+
+.oracion{
+  color: #0f1f57;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
