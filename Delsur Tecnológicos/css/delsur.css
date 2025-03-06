@@ -1,0 +1,120 @@
+/* .color1 {color: #000009;}
+.color2 {color: #262848;}
+.color3 {color: #585791;}
+.color4 {color: #958ee6;}
+.color5 {color: #ddcbff;}
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000009;
+  padding: 10px 10%;
+}
+
+header h1 {
+  color: white;
+  font-family: "Bebas Neue", serif;
+  font-size: 30px;
+  font-weight: 100;
+  font-style: italic;
+  display: inline-block;
+  position: relative;
+  bottom: 0;
+  margin-left: 10px;
+}
+
+.holder img {
+  width: 35px;
+}
+
+nav {
+  background-color: #262848;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  flex-grow: 1;
+  position: relative;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 3px 6px;
+  display: block;
+  text-align: center;
+}
+
+nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+footer {
+  background-color: #958ee6;
+  clear: both;
+  color: #333;
+  text-align: center;
+  padding: 5px 0;
+  margin-top: 20px;
+}
+
+nav ul li a.activo {
+  background-color: #4c76a5;
+}
+
+.holder {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  background-color: #262848;
+  padding: 10px 0;
+  min-width: 150px;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  z-index: 100;
+}
+
+.dropdown-menu li {
+  margin: 0;
+}
+
+.dropdown-menu li a {
+  padding: 10px 20px;
+  display: block;
+  font-size: 16px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #34495e;
+}
